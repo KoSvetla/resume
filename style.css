@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&family=Open+Sans:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    color: #2a2824;
+    background-image: url(./img/forest.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+
+  a {
+    text-decoration: none;
+    color: #2a2824;
+  }
+  a:hover {
+    opacity: 0.5;
+  }
+  a:active {
+    color: blue;
+  }
+  
+  a:visited {
+    color: rgb(255, 255, 255);
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  ul {
+    list-style: none;
+  }
+
+  .container {
+    box-sizing: border-box;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .header {
+    padding: 33px;
+  }
+
+  .header_list {
+    justify-content:  center;
+    display: flex;
+    gap: 80px;
+}
+.header a {
+    font-size: 20px;
+    color: #2a2824;
+    
+}
+
+.avatar {
+    width: 350px;
+    border-radius: 28px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, .40);
+  }
+
+  .welcome {
+    margin-bottom: 20px;
+    display: flex;
+  }
+  .welcome-text {
+    padding-left: 40px;
+  }
+
+  .welcome-text h1 {
+    font-size: 40px;
+    padding-bottom: 20px;
+  }
+
+  .welcome-text p {
+    font-size: 20px;
+    padding-bottom: 20px;
+    line-height: 40px;
+  }
+
+  .welcome-text h4 {
+    margin-top: 150px;
+    margin-bottom: 20px;
+    font-size: 25px;
+  }
+  .welcome-text a {
+    font-size: 18px;
+  }
+
+  .aboutme {
+    padding-left: 20px;
+    padding-right: 15px;
+    background-color: rgba(176,169,162, 0.8);
+    border-radius: 28px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, .40);
+  }
+
+  .aboutme-title {
+    text-align: center;
+    line-height: 50px;
+  }
+
+  .aboutme p {
+  line-height: 23px;
+  text-indent: 40px;
+  text-align: justify;
+  font-size: 18px;
+}
+.aboutme h3 {
+  padding-top: 20px;
+  line-height: 20px;
+  font-size: 20px;
+}
+.aboutme ol {
+  margin-left: 20px;
+  padding-bottom: 10px;
+  line-height: 25px;
+  font-size: 18px;
+}
+
+.aboutme table {
+  margin-top: 20px; 
+  margin-left: auto; 
+  margin-right: auto;
+  line-height: 25px;
+  border-collapse: collapse;
+  font-size: 18px;
+  table-layout: auto;
+  width: 100%;
+}
+
+td {
+  border-bottom: 1px solid #736c64;
+}
+
+.work {
+  display: flex;
+  justify-content:space-between;
+}
+.courses {
+  margin-top: 10px;
+  margin-right: 10px;
+  padding-left: 20px;
+  padding-right: 15px;
+  width: 50%;
+  background-color: rgba(69,68,50, 0.8);
+  border-radius: 28px;
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, .40);
+  color: #d5d3d2;
+}
+
+.courses h2 {
+  text-align: center;
+  line-height: 50px;
+}
+
+.courses ul {
+  padding-left: 20px;
+  line-height: 30px;
+  font-size: 18px;
+}
+.courses li {
+  text-indent: -20px;
+}
+ .courses a {
+  color: #9b9d9d;
+ }
+
+ .skills {
+  margin-top: 10px;
+  padding-left: 20px;
+  padding-right: 15px;
+  background-color: rgba(115,108,100, 0.8);
+  border-radius: 28px;
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, .40);
+  text-align: center;
+  width: 50%;
+ }
+
+ .skills h2 {
+  text-align: center;
+  line-height: 50px;
+ }
+
+ .skills img {
+  width: 33%;
+  height: 33%;
+ }
+
+ .contacts {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 15px;
+  background-color: rgba(176,169,162, 0.8);
+  border-radius: 28px;
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, .40);
+ }
+ .contacts h2 {
+  text-align: center;
+  line-height: 50px;
+ }
+
+ .contacts h3 {
+  padding-top: 20px;
+  line-height: 20px;
+  font-size: 20px;
+ }
+
+ .contacts form {
+  font-size: 18px;
+  box-sizing: border-box;
+  position: relative;
+  max-width: 400px;
+margin: auto;
+  background: #d5d3d2; 
+  border-radius: 30px;
+ }
+
+.form-inner {
+  padding: 30px;
+}
+.form-inner input, .form-inner textarea {
+  display: block;
+  width: 100%;
+  padding: 0 10px;
+  margin-bottom: 10px;
+  background: rgba(176,169,162, 0.8);
+  line-height: 40px;
+  border-width: 0;
+  border-radius: 30px;
+}
+.form-inner input {
+  margin-top: 5px;
+  color: white;
+  font-size: 20px;
+}
+
+
+.btn {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  height: 40px;
+  width: 50%;
+  border-radius: 30px;
+  border-color: #454432;
+}
+ .contacts p {
+  margin-top: 10px;
+  font-size: 18px;
+ }
