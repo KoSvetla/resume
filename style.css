@@ -258,3 +258,34 @@ margin: auto;
   margin-top: 10px;
   font-size: 18px;
  }
+
+
+  @media (max-width: 768px) {
+    img {
+      width: 250px;
+    }
+    .header_list {
+      display: grid;
+      grid-gap:10px;
+      grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    }
+    .welcome {
+      display: grid;
+      grid-gap: 10px;
+      grid-template-columns: repeat(auto-fill, minmax(186px, 1fr));
+    }
+  }
+ 
+  @media (max-width: 320px) {
+    .header_list {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(186px, 1fr));
+    }
+.welcome {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(auto-fill, minmax(186px, 1fr));
+}
+  }
+  
